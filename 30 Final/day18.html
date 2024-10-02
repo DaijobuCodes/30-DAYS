@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Privacy Challenge: Day 18</title>
+    <link rel="stylesheet" href="templets/day1new.css">
+    <style>
+        /* Additional styling specific to HTML layout */
+        .platform-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .instruction-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 18</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="head">
+        <p><a href="index.html"><b>Social Media Privacy Challenge</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Control Who Sees Your Data</h1>
+            <p>In today's digital age, social media has become an integral part of our daily lives, but it also presents a risk to our personal privacy. While these platforms offer ways to connect and share, they also expose users to potential threats such as identity theft, data breaches, and online tracking. This challenge focuses on empowering individuals to take control of their social media privacy settings, minimizing these risks.</p>
+            <img src="static/socialmedia1.png" alt="Social Media Privacy" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Incident</h2>
+            <p>In 2022, a significant social media breach exposed sensitive user information, including private messages, emails, and photos. The breach affected millions of accounts worldwide, revealing how inadequate privacy settings can lead to serious vulnerabilities. This incident highlighted the need for stronger, proactive privacy measures, urging users to review and update their social media security settings regularly.</p>
+            <img src="static/socialmedia2.png" alt="Privacy Breach" class="responsive-img">
+        </section>
+
+        <section class="platform-steps">
+            <h2>How to Secure Your different Social Media platforms in 4 Simple Steps</h2>
+
+            <!-- Instagram Privacy Settings -->
+            <div class="step">
+                <div class="platform-header">
+                    <h3>Instagram</h3>
+                    <button class="instruction">Instructions</button>
+                </div>
+                <div class="instruction-content">
+                    <ul>
+                        <li><b>Step 1:</b> Set your account to <b>Private</b> in the Privacy settings.</li>
+                        <li><b>Step 2:</b> Use the <b>Close Friends</b> list for private story sharing.</li>
+                        <li><b>Step 3:</b> Disable your activity status.</li>
+                        <li><b>Step 4:</b> Enable <b>Two-Factor Authentication</b>.</li>
+                    </ul>
+                    <img src="static/socialmedia3.png" alt="Instagram Privacy" class="responsive-img">
+                </div>
+            </div>
+
+            <!-- Facebook Privacy Settings -->
+            <div class="step">
+                <div class="platform-header">
+                    <h3>Facebook</h3>
+                    <button class="instruction">Instructions</button>
+                </div>
+                <div class="instruction-content">
+                    <ul>
+                        <li><b>Step 1:</b> Use the <b>Privacy Checkup</b> to review post visibility.</li>
+                        <li><b>Step 2:</b> Set your profile to <b>Friends Only</b>.</li>
+                        <li><b>Step 3:</b> Control tagging and review tagged posts.</li>
+                        <li><b>Step 4:</b> Enable <b>Two-Factor Authentication</b>.</li>
+                    </ul>
+                    <img src="static/socialmedia4.png" alt="Facebook Privacy" class="responsive-img">
+                </div>
+            </div>
+
+            <!-- Twitter Privacy Settings -->
+            <div class="step">
+                <div class="platform-header">
+                    <h3>Twitter (now X)</h3>
+                    <button class="instruction">Instructions</button>
+                </div>
+                <div class="instruction-content">
+                    <ul>
+                        <li><b>Step 1:</b> Set tweets to <b>Protected</b> in the Privacy settings.</li>
+                        <li><b>Step 2:</b> Control who can reply using the <b>Limit Replies</b> option.</li>
+                        <li><b>Step 3:</b> Restrict who can send you direct messages.</li>
+                        <li><b>Step 4:</b> Enable <b>Two-Factor Authentication</b>.</li>
+                    </ul>
+                    <img src="static/socialmedia5.png" alt="Twitter Privacy" class="responsive-img">
+                </div>
+            </div>
+
+            <!-- LinkedIn Privacy Settings -->
+            <div class="step">
+                <div class="platform-header">
+                    <h3>LinkedIn</h3>
+                    <button class="instruction">Instructions</button>
+                </div>
+                <div class="instruction-content">
+                    <ul>
+                        <li><b>Step 1:</b> Adjust who can see your connections and posts.</li>
+                        <li><b>Step 2:</b> Limit profile visibility to connections only.</li>
+                        <li><b>Step 3:</b> Manage email visibility.</li>
+                        <li><b>Step 4:</b> Enable <b>Two-Factor Authentication</b>.</li>
+                    </ul>
+                    <img src="static/socialmedia6.png" alt="LinkedIn Privacy" class="responsive-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Social Media Privacy Challenge. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to Toggle Instructions -->
+    <script>
+        const instructionButtons = document.querySelectorAll('.instruction');
+        instructionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.parentElement.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
