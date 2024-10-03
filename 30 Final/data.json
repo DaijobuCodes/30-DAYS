@@ -46,78 +46,78 @@
     },
     {
         "day": 10,
-        "href": "day10.html",
+        "href": "DAY10.html",
         "title": "Browser Saved Password"
     },
     {
         "day": 11,
         "href": "day11.html",
-        "title": " Arrays in JavaScript"
+        "title": "Review privacy settings on critical accounts and update them accordingly"
     },
     {
         "day": 12,
         "href": "day12.html",
-        "title": " Objects in JavaScript"
+        "title": "Browser Security"
     },
     {
         "day": 13,
         "href": "day13.html",
-        "title": " APIs and Fetch"
+        "title": "Link Sharing & Shortening"
     },
     {
         "day": 14,
         "href": "day14.html",
-        "title": " Introduction to Frameworks"
+        "title": "Backup Critical Data"
     },
     {
         "day": 15,
         "href": "day15.html",
-        "title": " JavaScript ES6 Features"
+        "title": "Bitlocker"
     },
     {
         "day": 16,
         "href": "day16.html",
-        "title": " Error Handling"
+        "title": "Disk cleanup Tool"
     },
     {
         "day": 17,
         "href": "day17.html",
-        "title": " Testing in JavaScript"
+        "title": "REsetting Advertising ID"
     },
     {
         "day": 18,
         "href": "day18.html",
-        "title": " Introduction to Node.js"
+        "title": "Understanding Social Media Privacy Setting"
     },
     {
         "day": 19,
         "href": "day19.html",
-        "title": " Express.js Basics"
+        "title": "WhatsApp Data Management"
     },
     {
         "day": 20,
         "href": "day20.html",
-        "title": " Working with Databases"
+        "title": "WhatsApp Data Security"
     },
     {
         "day": 21,
         "href": "day21.html",
-        "title": " Authentication Basics"
+        "title": "Google Account Privacy"
     },
     {
         "day": 22,
         "href": "day22.html",
-        "title": " Deployment Strategies"
+        "title": "Google Account Management"
     },
     {
         "day": 23,
         "href": "day23.html",
-        "title": " SEO Fundamentals"
+        "title": "Parental Control"
     },
     {
         "day": 24,
         "href": "day24.html",
-        "title": " Performance Optimization"
+        "title": "Monitor Kids Online Activity"
     },
     {
         "day": 25,
