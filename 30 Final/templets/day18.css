@@ -47,6 +47,14 @@ header {
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    
+}
+
+.intro img{
+    
+    margin-left: 180px;
+    border-radius: 8px;
+    
 }
 
 /* Section Styling */
@@ -58,12 +66,14 @@ section {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 h1 {
     font-size: 2.2em;
-    color: #333;
+    color: #000;
     text-align: center;
     margin-bottom: 20px;
 }
+
 
 h2 {
     color: #995EF3;
@@ -106,7 +116,6 @@ ul {
 .responsive-img {
     width: 100%;
     max-width: 600px;
-    height:auto;
     display: block;
     margin: 20px auto;
     border-radius: 8px;
@@ -117,6 +126,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 .step {
@@ -128,6 +138,7 @@ ul {
 
 .step h3 {
     margin-bottom: 10px;
+    color: #995EF3;
 }
 
 .step label {
@@ -178,11 +189,13 @@ ul {
 }
 
 .mySlides img {
-    width: 100%;           /* Set width to 100% for responsiveness */
-    max-width: 100%;        /* Ensure the image doesn’t exceed the container width */
-    height: auto;           /* Maintain aspect ratio */
-    border-radius: 8px;     /* Keep your border radius */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Keep the shadow */
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img-cont img{
+    width: 40%;
 }
 
 /* Button Styling */
@@ -234,7 +247,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #995EF3;
-    color: #ffffff;
+    color: #fff;
     position: relative;
     width: 100%;
     bottom: 0;
@@ -243,7 +256,7 @@ footer {
 
 footer p {
     margin: 0;
-    color: rgb(190, 190, 190);
+    color: #fff;
 }
 
 /* Responsive Adjustments */
