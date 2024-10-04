@@ -180,11 +180,11 @@ ul {
 }
 
 .mySlides img {
-    height: 700px;
-    width: 80%;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    object-fit: contain;
+    width: 40%;           /* Set width to 100% for responsiveness */
+    max-width: 100%;        /* Ensure the image doesn’t exceed the container width */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 8px;     /* Keep your border radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Keep the shadow */
 }
 
 /* Button Styling */
