@@ -117,36 +117,36 @@
     {
         "day": 24,
         "href": "day24.html",
-        "title": "UPI"
+        "title": "Online Payments"
     },
     {
         "day": 25,
         "href": "day25.html",
-        "title": " Security Best Practices"
+        "title": "Phishing and Social Engineering"
     },
     {
         "day": 26,
         "href": "day26.html",
-        "title": " Debugging Techniques"
+        "title": "Ransomware"
     },
     {
         "day": 27,
         "href": "day27.html",
-        "title": " Advanced Topics in JS"
+        "title": "Password Attacks"
     },
     {
         "day": 28,
         "href": "day28.html",
-        "title": " Final Project Overview"
+        "title": "DeepFake and AI"
     },
     {
         "day": 29,
         "href": "day29.html",
-        "title": " Presentation Skills"
+        "title": "Smart Home devices"
     },
     {
         "day": 30,
         "href": "day30.html",
-        "title": " Wrap Up and Next Steps"
+        "title": "Defend and Prevent"
     }
 ]
